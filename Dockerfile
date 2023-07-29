@@ -1,4 +1,4 @@
-FROM  redhat:ubi8
+FROM  centos
 MAINTAINER vikashashoke@gmail.com
 RUN yum install -y httpd \
  zip\
